@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul a {
+            text-decoration: none;
+        }
+        nav ul li a.blue{
+            color: green;
+        }
+
+        nav ul li a.grey{
+            color: grey;
+        }
+
+        nav {
+            float: left;
+            width: 22%;
+            margin: 0;
+            padding: 1em;
+        }
+
+        header {
+            padding: 1em;
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+
+        footer{
+            padding: 5px;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+        footer ul {
+            list-style-type: none;
+            padding-bottom: 14px;
+            padding-left: 0px;
+        }
+
+        footer ul li{
+            float: left;
+        }
+
+        footer ul li a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 16px;
+            margin-bottom: 5px;
+        }
+
+        .container {
+            position:relative;
+            border: 2px solid green;
+            margin: 10px;
+
+        }
+
+        .quert {
+            display:block;
+            position:absolute;
+            width:10px;
+            height:10px;
+            background-color:green;
+            border:green;
+        }
+        .first {
+            top:-10px;
+            left:-10px;
+        }
+        .second {
+            top:-10px;
+            right:-10px;
+        }
+
+        .third {
+            left:-10px;
+            bottom:-10px;
+        }
+
+        .four {
+            right:-10px;
+            bottom:-10px;
+        }
+        .content {
+            box-sizing: border-box;
+            position: relative;
+            padding: 15px;
+            min-width: 100px;
+            min-height: 100px;
+            z-index: 10;
+        }
+        .content-2 {
+            margin: 0px;
+        }
+
+        article {
+            margin-left: 170px;
+            padding: 2em;
+            overflow: hidden;
+            border-left: 1px solid green;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Zadanie 1</title>
+
+</head>
+<body>
+
+<header>
+Informatyka
+</header>
+
+<nav>
+    <ul>
+        <li><a href="https://pl.wikipedia.org/wiki/Algorytmika" class="blue">Algorytmika</a></li>
+        <li><a href="https://pl.wikipedia.org/wiki/System_operacyjny"  class="grey">System operacyjny</a></li>
+        <li><a href="https://pl.wikipedia.org/wiki/Grafika_komputerowa"  class="blue">Grafika komputerowa</a></li>
+        <li><a href="https://pl.wikipedia.org/wiki/In%C5%BCynieria_oprogramowania"  class="grey">Inżynieria oprogramowania</a> </li>
+        <li><a href="https://pl.wikipedia.org/wiki/J%C4%99zyk_programowania"  class="blue">Języki programowania</a></li>
+    </ul>
+
+</nav>
+
+<article>
+
+    <div class="container">
+
+        <div class="quert first"></div>
+        <div class="quert second"></div>
+        <div class="content content-2">
+            Informatyka – dyscyplina nauki zaliczana do nauk ścisłych oraz techniki zajmująca się przetwarzaniem informacji, w tym również technologiami przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzających informacje. Początkowo stanowiła część matematyki, później rozwinęła się do odrębnej dyscypliny – pozostaje jednak nadal w ścisłej relacji z matematyką, która dostarcza informatyce podstaw teoretycznych.
+        </div>
+        <div class="quert third"></div>
+        <div class="quert four"></div>
+
+
+    </div>
+
+
+
+
+</article>
+
+<footer>
+    <ul>
+        <li><a href="https://pl.wikipedia.org/wiki/Informatyka">More info</a></li>
+        <li><a href="https://www.w3schools.com/">Tutorial</a></li>
+        <li><a href="https://www.coursera.org/">More courses</a></li>
+        <li><a href="https://pl.wikipedia.org/wiki/Historia_informatyki">History</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
